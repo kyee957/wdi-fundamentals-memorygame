@@ -1,0 +1,110 @@
+body, a {
+	text-align: center;
+	text-decoration: none;
+}
+
+body {
+	margin: 0;
+}
+
+h1 {
+	margin: 0;
+}
+
+header {
+	background-color: #F15B31;
+	color: #FFFFFF;
+	padding: 30px 20px;
+}
+
+nav {
+	background-color: #00A6B3;
+	color: #FFFFFF;
+	padding: 20px 0;
+}
+
+h1, h2, h3, a {
+	font-family: "Raleway", sans-serif;
+	font-weight: 400;
+	text-transform: uppercase;
+}
+
+p {
+	font-family: "Droid Serif", serif;
+	margin: 0;
+}
+
+#handle {
+	color: #F15B31;
+	border-bottom: 2px solid transparent;
+}
+
+#handle:hover {
+	font-style: italic;
+}
+/*customized IG handle @memory_game*/
+
+a {
+	color: #FFFFFF;
+	margin: 0 20px; 
+	/*gives space between "instructions" and "game"*/
+}
+
+main {
+	width: 850px;
+	margin: 35px auto;
+}
+/*primary content has width of 850px*/
+
+img {
+	margin: 40px 0 8px 8px;
+}
+
+footer {
+	text-transform: uppercase;
+	padding: 0 20px;
+	background-color: #0D2C40;
+	color: #FFFFFF;
+	font-size: 14px;
+	letter-spacing: .08em;
+	font-weight: 500;
+}
+
+.copyright, .message {
+	font-family: Raleway;
+}
+
+.copyright {
+	float: left;
+}
+
+.message {
+	float: right;
+}
+/*"copyright 2017" and "created with love by GA" share a block */
+
+.clearfix:after {
+visibility: hidden;
+display: block;
+content: " ";
+clear: both;
+height: 0;
+font-size: 0;
+}
+/* allows for the footer to appear properly*/
+
+.name {
+	color: #F15B31;
+	font-weight: 700;
+}
+/*orange color font for "GA"*/
+
+a {
+	border-bottom: 2px solid transparent;
+}
+/*border-bottom is transparent under items in nav element "instructions" and "game"*/
+
+a:hover {
+	border-color: #FFFFFF;
+}
+/*hovering items "instructions" or "game" will show border-bottom*/
